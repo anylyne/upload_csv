@@ -1,0 +1,7 @@
+<h1>Import File</h1>
+<%= form_with url: people_import_path, multipart: true do |form| %>
+  <div class="form-group">
+  	<%= form.file_field :file %>
+  </div>
+  <%= form.submit "Upload CSV", class: 'btn btn-primary' %>
+<% end %>
