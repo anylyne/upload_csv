@@ -1,6 +1,6 @@
 # README
 
-Code Assesment Feb/2021
+Code Assessment Feb/2021
 
 # PART 1
 As a user, I should be able to upload this sample CSV and import the data into a database.
