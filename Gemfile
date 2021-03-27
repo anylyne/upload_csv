@@ -37,7 +37,7 @@ group :development, :test do
   gem 'faker'
   gem 'factory_bot_rails'
   gem 'database_cleaner'
-  gem 'rubocop'
+  gem 'rubocop', require: false
 end
 
 group :development do
